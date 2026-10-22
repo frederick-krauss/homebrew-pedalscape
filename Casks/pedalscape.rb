@@ -1,6 +1,6 @@
 cask "pedalscape" do
-  version "0.2.0"
-  sha256 "47e6521f17beeb425fadf708d33295900a54eaae19c7a2f7a4b162a637fc67f0"
+  version "0.2.1"
+  sha256 "26d336abd85a3964f875f65235e5ccff5d8a47f8b794e4442e5906a203711083"
 
   url "https://github.com/frederick-krauss/homebrew-pedalscape/releases/download/v#{version}/Pedalscape-#{version}-macOS.zip"
   name "Pedalscape"
