@@ -9,7 +9,7 @@ only holds the release zips (under Releases) and `Casks/pedalscape.rb`.
 Needs a Mac with Apple Silicon and Homebrew (https://brew.sh).
 
 ```sh
-brew tap /pedalscape
+brew tap frederick-krauss/pedalscape
 brew install --cask pedalscape
 xattr -dr com.apple.quarantine /Applications/Pedalscape.app
 ```
