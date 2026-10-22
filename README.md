@@ -10,9 +10,13 @@ Needs a Mac with Apple Silicon and Homebrew (https://brew.sh).
 
 ```sh
 brew tap frederick-krauss/pedalscape
+brew trust --cask frederick-krauss/pedalscape/pedalscape
 brew install --cask pedalscape
 xattr -dr com.apple.quarantine /Applications/Pedalscape.app
 ```
+
+`brew trust` is needed once: Homebrew only loads casks from taps outside its own
+repositories after you trust them.
 
 The last line is needed because the app is not notarised by Apple yet: without it macOS
 refuses to open it. Instead you can open the app once, then choose System Settings >
